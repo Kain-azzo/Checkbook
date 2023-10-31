@@ -57,7 +57,7 @@ def exit_program1(): #Exits the program.
 
 while keep_going == "yes": #Runs loop for user data entry.
     valid_entry = ["1","2","3","4"]
-    user_choice=input(f"\nWelcome to Stannys Bank!\n\nWhat would you like to do today?\n \n1. View current balance\n2. Add a debit (withdrawal)\n3. add a credit (deposit)\n4. exit\n")
+    user_choice=input(f"\nWelcome to Stanny's Bank!\n\nWhat would you like to do today?\n \n1. View current balance\n2. Add a debit (withdrawal)\n3. add a credit (deposit)\n4. exit\n")
     if user_choice not in valid_entry:
         print("\nINVALID ENTRY!!! Choose an an option between 1 and 4.\n\n")
     elif user_choice == "1":
